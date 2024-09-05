@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>        
+<title>Boloro's gallery</title>
+<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<link rel="stylesheet" type="text/css" href="css/gallery.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Libre+Barcode+39+Text&family=Libre+Barcode+EAN13+Text&display=swap&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+</head>
+<body>
+<header>
+    <div id="menu">
+      <input type="checkbox" id="menu_checkbox" onClick="menuOnClick()">
+      <label for="menu_checkbox" class="menu-label">
+      <div></div>
+      <div></div>
+      <div></div>
+      </label>
+      
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a onClick="menuOnClick()" href="index.html">Home</a></li>
+          <li><a onClick="menuOnClick()" href="photo.html">Photo gallery</a></li>
+          <li><a onClick="menuOnClick()" href="art.html">Art gallery</a></li>
+          <li><a onClick="menuOnClick()" href="work.html">Works</a></li>
+          <li><a onClick="menuOnClick()" href="./index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  <div class="menu-bg" id="menu-bg"></div>
+</header>
+<main>
+  <div class="art_container" id="art">
+        <h2 class="tit_art_gallery">My art Gallery</h2>
+      <div id="gallery-col art">
+        <div class="art gallery-list1">
+            <a href="asset/artwork1.jpg" class="gallery" data-group="gallery"><img src="asset/artwork1.jpg" alt=""></a>
+            <a href="asset/artwork2.jpg" class="gallery" data-group="gallery"><img src="asset/artwork2.jpg" alt=""></a>
+            <a href="asset/artwork3.jpg" class="gallery" data-group="gallery"><img src="asset/artwork3.jpg" alt="" loading="lazy"></a>
+            <a href="asset/artwork9.jpg" class="gallery" data-group="gallery"><img src="asset/artwork9.jpg" alt="" loading="lazy"></a>
+            <a href="asset/artwork8.jpg" class="gallery" data-group="gallery"><img src="asset/artwork8.jpg" alt="" loading="lazy"></a>
+            <a href="asset/artwork6.jpg" class="gallery" data-group="gallery"><img src="asset/artwork6.jpg" alt="" loading="lazy"></a>
+            <a href="asset/artwork4.jpg" class="gallery" data-group="gallery"><img src="asset/artwork4.jpg" alt="" loading="lazy"></a>
+            <a href="asset/artwork5.jpg" class="gallery" data-group="gallery"><img src="asset/artwork5.jpg" alt="" loading="lazy"></a>
+            <a href="asset/artwork7.jpg" class="gallery" data-group="gallery"><img src="asset/artwork7.jpg" alt="" loading="lazy"></a>
+            <a href="asset/artwork14.jpg" class="gallery" data-group="gallery"><img src="asset/artwork14.jpg" alt="" loading="lazy"></a>
+            <a href="asset/artwork10.PNG" class="gallery" data-group="gallery"><img src="asset/artwork10.PNG" alt="" loading="lazy"></a>
+            <a href="asset/artwork11.JPG" class="gallery" data-group="gallery"><img src="asset/artwork11.JPG" alt="" loading="lazy"></a>
+            <a href="asset/artwork12.JPG" class="gallery" data-group="gallery"><img src="asset/artwork12.JPG" alt="" loading="lazy"></a>
+            <a href="asset/artwork13.JPG" class="gallery" data-group="gallery"><img src="asset/artwork13.JPG" alt="" loading="lazy"></a>
+            <a href="asset/artwork15.jpg" class="gallery" data-group="gallery"><img src="asset/artwork15.jpg" alt="" loading="lazy"></a>
+        </div>
+      </div>
+  
+	  <div class="flex-row">
+		  <div class="back"><a href="index.html">← Home Page</a></div>
+		  <div class="back"><a href="photo.html">Photo gallery →</a></div>
+	  </div>
+  </div>
+</main>
+<script src="https://kit.fontawesome.com/519324c79c.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+<script src="js/menu.js"></script> 
+<script src="js/gallery.js"></script>
+</body>
+</html>

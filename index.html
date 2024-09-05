@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Boloro's portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+        <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Libre+Barcode+39+Text&family=Libre+Barcode+EAN13+Text&display=swap&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      </head>
+    <body>
+        <header>
+            <div class="barcode name-1">
+                <p>S.Bolortsetseg</p><br>
+                <p>DESIGNER</p>
+            </div>
+            <div id="menu">
+              <input type="checkbox" id="menu_checkbox" onClick="menuOnClick()">
+              <label for="menu_checkbox" class="menu-label">
+              <div></div>
+              <div></div>
+              <div></div>
+              </label>
+              
+              <nav class="nav" id="nav">
+                <ul>
+                  <li><a onClick="menuOnClick()" href="index.html">Home</a></li>
+                  <li><a onClick="menuOnClick()" href="photo.html">Photo gallery</a></li>
+                  <li><a onClick="menuOnClick()" href="art.html">Art gallery</a></li>
+                  <li><a onClick="menuOnClick()" href="work.html">Works</a></li>
+                  <li><a onClick="menuOnClick()" href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+            <div class="barcode location">
+                <p>LOCATION</p><br>
+                <p>TOKYO JAPAN</p>
+            </div>
+        </header>
+        <section>
+            <div class="container home-container">
+                <img class="home-img" src="asset/home-img-dark1.png" alt=""/>
+                <p class="name-2">Sainjargal Bolortsetseg</p>
+            </div>
+        </section>
+        <section>
+            <div class="container page-2">
+                <p class="about-me animation">
+                    Hi there!<br>
+I'm Sainjargal Bolortsetseg, a web designer based in Japan. Embracing the title of 'Jack of all trades' I find joy in exploring the diverse realms of digital design, constantly learning and evolving with each project.I'm thrilled to share my budding portfolio with you and eager to collaborate on projects that push boundaries and spark creativity.
+                </p>
+            </div>
+        </section>
+        <section id="page-3">
+            <div class="container page-3">
+                <div class="gallery">
+                  <a href="photo.html">
+                    <div class="gallery-box gallery-box1 animation photo">
+                        <h2>Photo gallery</h2>
+                        <div class="gallery-box-text">
+                            <p class="gallery-subtit">Capturing the unseen beauty of nature. </p><br>
+                            <p class="small-txt">I love exploring and capturing the intricate details of the world that are often overlooked. Flowers are a particular favorite of mine, as they offer an endless array of colors, shapes, and textures that make each photo unique and captivating.</p>
+                        </div>
+                    </div>
+                  </a>
+                  <a href="art.html">
+                   <div class="gallery-box gallery-box2 animation art">
+                        <h2>Art gallery</h2>
+                        <div class="gallery-box-text">
+                            <p class="gallery-subtit">Transforming imagination into digital masterpieces.</p><br>
+                            <p class="small-txt">Eagerly carving my path as a digital artist with a deep passion for portrait drawing. I love bringing out the unique essence of each person through my art, whether it’s a detailed digital portrait.</p>
+                        </div>
+                    </div>
+                  </a>
+                </div>
+            </div>
+        </section>
+        <section id="page-4">
+            <div class="container page-4">
+                <h2 class="animation">What ‘s in the basket?</h2>
+                <div class="tooltip-box">
+                    <ul class="wrapper">
+                      <li class="skill"><!--Design--><i class="fa-solid fa-pen-nib" style="margin-left: 10px;"></i>
+                        <span class="tooltip tooltip1 small-txt">Adobe Creative<br>Suite</span>
+                        <span class="tooltip tooltip2 small-txt">Figma</span>
+                        <span class="tooltip tooltip3 small-txt">Pro create</span>
+                      </li>
+                      <li class="skill"><!--Web development--><i class="fa-solid fa-code" style="margin-left: 10px;"></i>
+                        <span class="tooltip tooltip1 small-txt">HTML,CSS</span>
+                        <span class="tooltip tooltip2 small-txt">Java script</span>
+                        <span class="tooltip tooltip3 small-txt">React</span>
+                      </li>
+                      <li class="skill"><!--Video & Animation--><i class="fa-solid fa-film" style="margin-left: 10px;"></i>
+                        <span class="tooltip tooltip1 small-txt">Adobe After Effects</span>
+                        <span class="tooltip tooltip2 small-txt">Adobe Premiere Pro</span>
+                      </li>
+                      <li class="skill"><!--3D modeling--><i class="fa-brands fa-unity" style="margin-left: 10px;"></i>
+                        <span class="tooltip tooltip1 small-txt">Blender</span>
+                        <span class="tooltip tooltip2 small-txt">Maya</span>
+                      </li>
+                      <li class="skill"><!--CMS--><i class="fa-brands fa-wordpress-simple" style="margin-left: 10px;"></i>
+                        <span class="tooltip tooltip1 small-txt">Wordpress</span>
+                        <span class="tooltip tooltip2 small-txt">Adobe AEM</span>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+        </section>
+        <div id="contact" class="container page-5">
+          <h2 class="animation">Get in touch</h2>
+            <div class="contact-box-text">
+              <p>I'd love to hear from you! <i class="fa-regular fa-face-kiss"></i><br>Whether you have a question, a project idea, 
+                or just want to say HELLO! feel free to reach out.</p>
+              <p class="contact-info"><a href=""><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> <span> sbororu12@gmail.com</span></a><br><a href=""><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> <span> +81 080 5386 8760</span></a></p>
+            <div class="socials">
+                <p><a href="http://linkedin.com/in/bolor-tsetseg-1183a1254"><i class="fa-brands fa-linkedin-in"></i></a></p>
+                <p><a href="https://instagram.com/sbororu"><i class="fa-brands fa-instagram"></i></a></p>
+                <p><a href="https://github.com/sbororu"><i class="fa-brands fa-github"></i></a></p>
+            </div>
+            </div>
+        </div>
+        <footer>
+          <div class="madebyme">
+             <p class="small-txt">Created by <i class="fa-solid fa-shield-heart"></i> Boloro</p>
+          </div>
+        </footer>
+        <script src="js/menu.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://kit.fontawesome.com/519324c79c.js" crossorigin="anonymous"></script>
+    </body>
+</html>

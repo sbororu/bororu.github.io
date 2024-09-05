@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>        
+<title>Boloro's gallery</title>
+<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<link rel="stylesheet" type="text/css" href="css/gallery.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Libre+Barcode+39+Text&family=Libre+Barcode+EAN13+Text&display=swap&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css">
+</head>
+<body>
+<header>
+    <div id="menu">
+      <input type="checkbox" id="menu_checkbox" onClick="menuOnClick()">
+      <label for="menu_checkbox" class="menu-label">
+      <div></div>
+      <div></div>
+      <div></div>
+      </label>
+      
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a onClick="menuOnClick()" href="index.html">Home</a></li>
+          <li><a onClick="menuOnClick()" href="photo.html">Photo gallery</a></li>
+          <li><a onClick="menuOnClick()" href="art.html">Art gallery</a></li>
+          <li><a onClick="menuOnClick()" href="work.html">Works</a></li>
+          <li><a onClick="menuOnClick()" href="./index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  <div class="menu-bg" id="menu-bg"></div>
+</header>
+<main>
+  <section id="gallery">
+      <h2 class="tit_gallery">Photo gallery</h2>
+      <div id="gallery-col">
+        <div class="gallery-row gallery-list1">
+            <a href="asset/gallery1.jpg" class="gallery" data-group="gallery"><img src="asset/gallery1.jpg" alt="" width="100%"></a>
+		
+            <a href="asset/gallery3.jpg" class="gallery" data-group="gallery"><img src="asset/gallery3.jpg" alt="" width="100%"></a>
+        </div>
+        <div class="gallery-row gallery-list2">
+            <a href="asset/gallery4.jpg" class="gallery" data-group="gallery"><img src="asset/gallery4.jpg" alt="" width="100%" loading="lazy"></a>
+            <a href="asset/gallery2.jpg" class="gallery" data-group="gallery"><img src="asset/gallery2.jpg" alt="" width="100%" loading="lazy"></a>
+            <a href="asset/gallery6.jpg" class="gallery" data-group="gallery"><img src="asset/gallery6.jpg" alt="" width="100%" loading="lazy"></a>
+        </div>
+        <div class="gallery-row gallery-list3">
+            <a href="asset/gallery5.jpg" class="gallery" data-group="gallery"><img src="asset/gallery5.jpg" alt="" width="100%"></a>
+            <a href="asset/gallery7.jpg" class="gallery" data-group="gallery"><img src="asset/gallery7.jpg" alt="" width="100%" loading="lazy"></a>
+			<div class="flex-col">
+            <a href="asset/gallery9.jpg" class="gallery" data-group="gallery"><img src="asset/gallery9.jpg" alt="" width="100%" loading="lazy"></a>
+			</div>
+        </div>
+        <div class="gallery-row gallery-list4">
+            <a href="asset/gallery10.jpg" class="gallery" data-group="gallery"><img src="asset/gallery10.jpg" alt="" width="100%" loading="lazy"></a>
+            <a href="asset/gallery11.jpg" class="gallery" data-group="gallery"><img src="asset/gallery11.jpg" alt="" width="100%" loading="lazy"></a>
+        </div>
+		  <div class="gallery-row gallery-list5">
+		  </div>
+        <div class="gallery-row gallery-list6">
+            <a href="asset/gallery12.jpg" class="gallery" data-group="gallery"><img src="asset/gallery12.jpg" alt="" width="100%" loading="lazy"></a>
+			<div class="flex-col">
+            <a href="asset/gallery8.jpg" class="gallery" data-group="gallery"><img src="asset/gallery8.jpg" alt="" width="100%" loading="lazy"></a>
+            <a href="asset/gallery13.jpg" class="gallery" data-group="gallery"><img src="asset/gallery13.jpg" alt="" width="100%" loading="lazy"></a>
+            <a href="asset/gallery14.jpg" class="gallery" data-group="gallery"><img src="asset/gallery14.jpg" alt="" width="100%" loading="lazy"></a>
+			</div>
+        </div>
+        <div class="gallery-row gallery-list7">
+			<div class="flex-col">
+            <a href="asset/gallery15.jpg" class="gallery" data-group="gallery"><img src="asset/gallery15.jpg" alt="" width="100%" loading="lazy"></a>
+            <a href="asset/gallery16.jpg" class="gallery" data-group="gallery"><img src="asset/gallery16.jpg" alt="" width="100%" loading="lazy"></a>
+			</div>
+            <a href="asset/gallery17.jpg" class="gallery" data-group="gallery"><img src="asset/gallery17.jpg" alt="" width="100%" loading="lazy"></a>
+        </div>
+      </div>
+	  <div class="flex-row">
+		  <div class="back"><a href="index.html">← Home Page</a></div>
+		  <div class="back"><a href="art.html">Art gallery →</a></div>
+	  </div>
+  </section>
+</main>
+<script src="https://kit.fontawesome.com/519324c79c.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+<script src="js/menu.js"></script> 
+<script src="js/gallery.js"></script>
+</body>
+</html>
