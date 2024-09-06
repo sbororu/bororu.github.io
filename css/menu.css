@@ -125,6 +125,7 @@ header {
   background: rgb(233 166 166 / 20%) !important;
   box-shadow: 2px 0px 4px rgba(233, 166, 166, 0.2);
   backdrop-filter: blur(6px) !important;
+  -webkit-backdrop-filter: blur(6px)!important;
 }
 .change {
   display: block;

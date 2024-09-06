@@ -66,10 +66,11 @@
         margin: auto;
     }
     #page-3{
-        height: 150vh;
+        height: 115vh;
+        padding-top: 100px;
     }
     #page-4{
-        height: 100vh;
+        height: 85vh;
     }
     .name-1{
         margin-left: 0;
