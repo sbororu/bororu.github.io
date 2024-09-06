@@ -51,6 +51,8 @@
         -ms-transform: translateY(13px);
         -o-transform: translateY(13px);
         transform: translateY(13px);
+    }
+
     .gallery{
         display: flex;
         flex-direction: column;
