@@ -25,3 +25,21 @@ $(window).on('load scroll', function (){
     SetScrollTiming('.gallery-box1');
     SetScrollTiming('.gallery-box2');
 });
+
+//Tooltip
+$(function(){
+    //スマホ等タッチデバイスでhoverと同等のアクションをさせるために、イベントをtouchstart,touchendにします。もちろんタッチデバイスだけしか判定されません。
+    $(".wrapper a").bind('touchstart',function() {
+      $(this).next('span:not(:animated)').animate({opacity:'show' , 'top': '-85px',}, 1500,'easeOutElastic');}).bind('touchend', function() {
+        $(this).next("span").animate({opacity: 'hide', top: '0'}, 100,'linear');
+      });
+   
+    //PC用↓イベントを.bindに書き換えています
+    $(".wrapper a").bind('mouseenter',function() {
+      $(this).next('span:not(:animated)').animate({opacity:'show' , 'top': '-85px',}, 1500,'easeOutElastic');}).bind('mouseleave', function() {
+        $(this).next("span").animate({opacity: 'hide', top: '0'}, 100,'linear');
+      });
+    
+    //↑なのでPCかスマホかを最初に判定して、'mouseenter'か'touchstart'に書きかわるロジックを作れば、コードを短くできますね！
+    
+  });
