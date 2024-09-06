@@ -34,4 +34,4 @@ function menuToggle() {
 		}
 	  }
   }
-  menuToggle();
+menuToggle();
