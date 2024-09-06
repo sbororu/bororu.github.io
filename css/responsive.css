@@ -36,7 +36,7 @@
         max-width: 200px;
     }
     .menu-bg, #menu{
-        padding-top: 180px;
+        padding-top: 50px;
     }
     .menu-label{
         width: 34px;
@@ -46,6 +46,11 @@
         width: 34px;
         margin-bottom:12px;
     }
+    #menu_checkbox:checked + label div:first-child {
+        -webkit-transform: translateY(13px);
+        -ms-transform: translateY(13px);
+        -o-transform: translateY(13px);
+        transform: translateY(13px);
     .gallery{
         display: flex;
         flex-direction: column;
