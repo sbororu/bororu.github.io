@@ -35,8 +35,9 @@
     .home-img{
         max-width: 200px;
     }
-    .menu-bg, #menu{
-        padding-top: 50px;
+    .menu-label {
+        top: 120%;
+        padding-top: 0;
     }
     .menu-label{
         width: 34px;
