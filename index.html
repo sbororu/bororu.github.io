@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="ja">
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta charset="utf-8">
@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Libre+Barcode+39+Text&family=Libre+Barcode+EAN13+Text&display=swap&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+        <link rel="alternate" hreflang="en" lang="en" href="index.html/en/">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       </head>
     <body>
@@ -37,6 +38,12 @@
               </nav>
             </div>
             <div class="menu-bg" id="menu-bg"></div>
+            <div class="language-select-wrapper">
+              <select class="language-select" id="language">
+                  <option value="ja">日本語</option>
+                  <option value="en">English</option>
+              </select>
+            </div>
             <div class="barcode location">
                 <p>LOCATION</p><br>
                 <p>TOKYO JAPAN</p>
@@ -50,10 +57,9 @@
         </section>
         <section>
             <div class="container page-2">
-                <p class="about-me animation">
-                    Hi there!<br>
-Bolortsetsegはウェブ・グラフィックデザイナー。<br>これまでは、主にウェブデザインからコーディング、名刺やパンプレットなどの印刷物、ロゴマークなどのグラフィックデザイン、撮影、デジタルイラストなどに携わって来ました。
-                </p>
+                <div class="about-me animation"><span>Hi there!</span>
+                <p data-lang-key="lead01">私はウェブ・グラフィックデザイナー。これまでは、主にウェブデザインからコーディング、名刺やパンプレットなどの印刷物、ロゴマークなどのグラフィックデザイン、撮影、デジタルイラストなどに携わって来ました。</p>
+                </div>
             </div>
         </section>
         <section id="page-3">
@@ -134,6 +140,7 @@ Bolortsetsegはウェブ・グラフィックデザイナー。<br>これまで�
         </footer>
         <script src="js/menu.js"></script>
         <script src="js/script.js"></script>
+        <script src="js/lang.js"></script>
         <script src="https://kit.fontawesome.com/519324c79c.js" crossorigin="anonymous"></script>
     </body>
 </html>
