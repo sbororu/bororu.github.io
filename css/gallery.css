@@ -8,6 +8,9 @@
 html, body, main {
   width: 100%;
   height: 100%;
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h2, h3 {
   color: #000000;
@@ -41,6 +44,10 @@ h2, h3 {
 #gallery {
   width: 100%;
   height: auto;
+}
+#gallery p,#art p{
+  width: 90%;
+  margin: auto;
 }
 #gallery-col {
   height: auto;
@@ -224,8 +231,11 @@ h2, h3 {
   .tit_gallery, .tit_art_gallery{
     margin: 30% 0;
   }
+  #gallery p,#art p{
+    margin-bottom: 20%;
+  }
   .tit_gallery, .tit_art_gallery{
-    margin: 40% 0;
+    margin: 40% 0 10% 0
   }
   .art{
     display: flex;

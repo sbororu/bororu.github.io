@@ -7,7 +7,7 @@
 /*for all small devices*/
 @media (max-width: 767px) {
     h1,h2,h3,h4,h5,h6,p,.small-txt{
-        line-height: 1.6;
+        line-height: 1.8;
     }
     .barcode{
         font-size: 24px;
@@ -26,11 +26,12 @@
     h3{
         font-size: 28.83px;
     }
-    p, .skill{
-        font-size: 18px;
+    p,.skill,.hello-txt{
+        font-size: 16px;
+        line-height: 2;
     }
     .small-txt{
-        font-size: 16px;
+        font-size: 14px;
     }
     .home-img{
         max-width: 200px;
@@ -46,6 +47,9 @@
     .menu-label div{
         width: 34px;
         margin-bottom:12px;
+    }
+    .about-me{
+        width: 90%;
     }
     .gallery{
         display: flex;
@@ -90,7 +94,7 @@
         margin-bottom: 60px;
     }
     .contact-box-text{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -112,7 +116,7 @@
     h3{
         font-size: 32px;;
     }
-    p, .skill{
+    p, .skill, .hello-txt{
         font-size: 22px;
     }
     .small-txt{
@@ -166,7 +170,7 @@
     h3{
         font-size: 35.2px;;
     }
-    p, .skill{
+    p, .skill, .hello-txt{
         font-size: 28px;
     }
     .small-txt{
