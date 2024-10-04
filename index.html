@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ja">
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta charset="utf-8">
@@ -20,6 +20,13 @@
                 <p>DESIGNER</p>
             </div>
             <div id="menu" class="menu">
+              <div class="language-select-wrapper">
+                <select class="language-select" id="language">
+                  <option value="en">English</option>
+                    <option value="ja">日本語</option>
+                </select>
+              </div>
+              
               <input type="checkbox" id="menu_checkbox" onClick="menuOnClick()">
               <label for="menu_checkbox" class="menu-label">
               <div></div>
@@ -38,12 +45,6 @@
               </nav>
             </div>
             <div class="menu-bg" id="menu-bg"></div>
-            <div class="language-select-wrapper">
-              <select class="language-select" id="language">
-                  <option value="ja">日本語</option>
-                  <option value="en">English</option>
-              </select>
-            </div>
             <div class="barcode location">
                 <p>LOCATION</p><br>
                 <p>TOKYO JAPAN</p>
@@ -57,8 +58,11 @@
         </section>
         <section>
             <div class="container page-2">
-                <div class="about-me animation"><span>Hi there!</span>
-                <p data-lang-key="lead01">私はウェブ・グラフィックデザイナー。これまでは、主にウェブデザインからコーディング、名刺やパンプレットなどの印刷物、ロゴマークなどのグラフィックデザイン、撮影、デジタルイラストなどに携わって来ました。</p>
+                <div class="about-me animation"><span class="hello-txt">Hi there!</span>
+                <p data-lang-key="lead01">I am Boloro, a web designer with a passion for photography and digital art - currently based in Japan. 
+                  I've been mainly involved in web design, graphic design such as business cards, flyers and logos etc.. 
+                  My attraction to minimalism and sense of aesthetics are the two strengths that guide my design.
+                </p>
                 </div>
             </div>
         </section>
@@ -69,8 +73,8 @@
                     <div class="gallery-box gallery-box1 animation photo">
                         <h2>Photo gallery</h2>
                         <div class="gallery-box-text">
-                            <p class="gallery-subtit">Capturing the unseen beauty of nature. </p><br>
-                            <p class="small-txt">I love exploring and capturing the intricate details of the world that are often overlooked. Flowers are a particular favorite of mine, as they offer an endless array of colors, shapes, and textures that make each photo unique and captivating.</p>
+                            <p data-lang-key="lead02" class="gallery-subtit">Capturing the unseen beauty of nature. </p><br>
+                            <p data-lang-key="lead03" class="small-txt">I love exploring and capturing beautiful details of the world and the soul of every moment. I love dramatic things so I bring a cinematic touch to everyphotos. "Life is romantic if you make it romantic."</p>
                         </div>
                     </div>
                   </a>
@@ -78,8 +82,8 @@
                    <div class="gallery-box gallery-box2 animation art">
                         <h2>Art gallery</h2>
                         <div class="gallery-box-text">
-                            <p class="gallery-subtit">Transforming imagination into digital masterpieces.</p><br>
-                            <p class="small-txt">Eagerly carving my path as a digital artist with a deep passion for portrait drawing. I love bringing out the unique essence of each person through my art, whether it’s a detailed digital portrait.</p>
+                            <p data-lang-key="lead04" class="gallery-subtit">Dancing lady in imagination.</p><br>
+                            <p data-lang-key="lead05" class="small-txt">Eagerly carving my path as a digital artist. I love bringing out the unique essence of each person through my drawing, whether it's a detailed digital portrait.</p>
                         </div>
                     </div>
                   </a>
@@ -88,7 +92,7 @@
         </section>
         <section id="page-4">
             <div class="container page-4">
-                <h2 class="animation">What ‘s in the basket?</h2>
+                <h2 class="animation">What's in my basket?</h2>
                 <div class="tooltip-box">
                     <ul class="wrapper">
                       <li class="skill"><!--Design--><a role="button" href="javascript:void(0);"><i class="fa-solid fa-pen-nib" style="margin-left: 10px;"></i></a>
@@ -120,8 +124,9 @@
         <div id="contact" class="container page-5">
           <h2 class="animation">Get in touch</h2>
             <div class="contact-box-text">
-              <p>I'd love to hear from you! <i class="fa-regular fa-face-kiss"></i><br>Whether you have a question, a project idea, 
-                or just want to say HELLO! feel free to reach out.</p>
+              <p data-lang-key="lead06">I'd love to hear from you! <i class="fa-regular fa-face-kiss"></i></p><br>
+              <p data-lang-key="lead07">Whether you have a question, a project idea, 
+                or just want to say HELLO! feel free to reach out.</p>
               <p class="contact-info">
                 <a href="mailto:sbororu12@gmail.com"><i class="fa-solid fa-envelope" style="margin-right: 10px;"></i> <span> sbororu12@gmail.com</span></a><br>
                 <a href="tel:+8108053868760"><i class="fa-solid fa-phone" style="margin-right: 10px;"></i> <span> +81 080 5386 8760</span></a>
