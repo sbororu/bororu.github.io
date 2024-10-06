@@ -31,7 +31,7 @@ header {
     margin-right: 10%;
 }
 #menu {
-  z-index: 9999;
+  z-index: 999;
 }
 #menu_checkbox {
   display: none;
@@ -111,6 +111,7 @@ header {
   display: none;
 }
 .language-select-wrapper{
+  z-index:9;
   position: absolute;
   left: 50%;
   top: 36%;
