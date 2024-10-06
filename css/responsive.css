@@ -61,6 +61,7 @@
     }
     .tooltip-box{
         width: 300px;
+        margin: auto;
     }
     .gallery-box{
         width: 290px;
